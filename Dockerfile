@@ -2,7 +2,7 @@
 ## Terraformers Docker Setup ##
 #########################################
 
-FROM osrf/ros:jazzy-desktop
+FROM dustynv/ros:jazzy-desktop-r36.4.0-cu128-24.04
 ENV ROS_DISTRO=jazzy
 
 SHELL ["/bin/bash", "-c"]
